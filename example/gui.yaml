@@ -1,0 +1,25 @@
+application:
+  attributes:
+    title: "My root window"
+    geometry: "600x400"
+    use_frame: Yes
+  frame_attributes:
+    padding: 10
+  widgets:
+    - WidgetLabel:
+       attributes:
+        text: "label1"
+        column: 0
+        row: 0
+    - WidgetLabel:
+        attributes:
+          text: "label2"
+          column: 0
+          row: 1
+    - WidgetButton:
+        attributes:
+          text: "button1"
+          column: 0
+          row: 2
+        command: "test_function"
+
